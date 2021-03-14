@@ -1,17 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// TODO - Implement Login Screen
+// * Login button should be disabled until both username/password are entered
+// * Login button is disabled after being clicked, displaying "Loading..."
+// * After the fake API call returns, display error messages
+// * Clicking the login button again removes the errors and proceeds to homepage
+// TODO - Implement Homepage
+// * Displays a welcome message with the username of the logged in individual
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById("root"));

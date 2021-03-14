@@ -1,0 +1,35 @@
+.blue_box {
+    margin-top: 40px;
+    &_button {
+        background-color: #4f00ff;
+        &:focus { outline-width: 2px; outline-color: #FBEAFF; outline-style: outset;}
+        &:active { outline-width: 2px; outline-color: #FBEAFF; outline-style: outset; background-color: #3700b3;}
+        font-size: 14px;
+        width: 100%;
+        height: 45px;
+        padding: 7px 25px 7px 0;
+        color: #ffffff;
+        border-radius: 3px;
+        border: none;
+        font-family: Rubik-Medium;
+        text-align: center;
+        &:disabled {
+            background-color: #beb9c8;
+        }
+    }
+    &_button_loading {
+        background-color: #beb9c8;
+        &:focus { outline-width: 2px; outline-color: #FBEAFF; outline-style: outset;}
+        &:active { outline-width: 2px; outline-color: #FBEAFF; outline-style: outset; background-color: #3700b3;}
+        font-size: 14px;
+        width: 100%;
+        height: 45px;
+        padding: 7px 25px 7px 0;
+        color: #ffffff;
+        border-radius: 3px;
+        border: none;
+        font-family: Rubik-Medium;
+        text-align: center;
+        pointer-events: none;
+    }
+}

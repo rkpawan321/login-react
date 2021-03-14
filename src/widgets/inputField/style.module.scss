@@ -1,0 +1,32 @@
+.input_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    font-family: Rubik-Medium;
+    border-color: none;
+
+    &_value {
+        &:focus { outline-width: 0; }
+        font-size: 16px;
+        padding: 10px 25px 5px 10px;  
+        background-color: #f1f0f3;
+        animation: 1ms void-animation-out;
+        border-radius: 8px;
+        border: none;
+        font-family: Rubik-Light;
+        height: 30px;
+    }
+    &_label {
+        padding: 11px 0;
+        color: #aaa3b9;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    &_helper_text {
+        font-family: Rubik-Light;
+        color: red;
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+}
